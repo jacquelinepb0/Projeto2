@@ -18,24 +18,56 @@
 padding: 0;
 width: 6em;
     border: 9px;
+    cursor: pointer;
 }
 
-.div-main{
+.div-main{  display: flex;
     flex-direction: column;
    padding: 190px;
-    background-color: brown;
 
-   }
+   background-image: url(https://www.hoteldiogo.com.br/wp-content/uploads/2025/04/xHotel-Diogo-Os-5-pontos-turisticos-em-Fortaleza-que-voce-precisa-conhecer02-1024x683.jpg.pagespeed.ic.vfM2vHBp6G.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   
+justify-content: center;
+align-items: center;
+   };
+
 
 .aberta{ text-align: center;
     border: solid 0px;
     border-radius: 50px;
-  width: 10em;
+  width: 200px;
   background-color: yellow;
   }
 
   .h1-principal,
   .descricao{ color: beige;
+    margin: 5px;
   }
 
   .span-main{color: blue;}
+
+  .div-orcamento{ display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .orcamento{text-align: center;
+    border: solid 0px;
+    border-radius: 3px;
+  width: 25vh;
+  background-color: yellow;
+  cursor: pointer;
+  margin:  15px 0 0 0;
+  }
+
+  .frota{text-align: center;
+    border: solid 0px;
+    border-radius: 3px;
+  width: 15vh;
+  background-color: green;
+  cursor: pointer;
+margin:  15px 0 0 0;
+  }
