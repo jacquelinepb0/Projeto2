@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.div-intro{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 100%;
+}
+
+.button{background-color: green;
+padding: 0;
+width: 6em;
+    border: 9px;
+}
+
+.div-main{
+    flex-direction: column;
+   padding: 190px;
+    background-color: brown;
+
+   }
+
+.aberta{ text-align: center;
+    border: solid 0px;
+    border-radius: 50px;
+  width: 10em;
+  background-color: yellow;
+  }
+
+  .h1-principal,
+  .descricao{ color: beige;
+  }
+
+  .span-main{color: blue;}
