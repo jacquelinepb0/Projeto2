@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-
+/*  
 .div-intro{display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,6 +20,7 @@ width: 6em;
     border: 9px;
     cursor: pointer;
 }
+
 
 .div-main{  display: flex;
     flex-direction: column;
@@ -43,7 +44,7 @@ align-items: center;
   }
 
   .h1-principal,
-  .descricao{ color: beige;
+  .descricao{ color: brown;
     margin: 5px;
   }
 
