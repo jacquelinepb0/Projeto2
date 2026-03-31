@@ -5,82 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <title>Costa Leste</title>
 </head>
 <body>
 
 
-    <header class="w-full bg-white flex flex-row justify-between shadow h-auto ">
+    <header class="w-full bg-white flex flex-row h-auto">
 
-    <div class="w-10 h-auto">
-        <img src="./assets/WhatsApp Image 2026-02-05 at 13.18.41.jpeg" alt="Logo costa leste">
+    <div class="w-40 h-auto ml-4">
+        <img src="./assets/LogoCostaLeste.png" alt="Logo costa leste">
     </div> 
 
-    <div class="navbar bg-base-100 shadow-sm">
-  <div class="navbar-start">
+    <div class="navbar justify-end bg-base-100 shadow-sm">
     <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      <div tabindex="0" role="button" class="btn btn-ghost btn-circle ">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /> </svg>
       </div>
       <ul
         tabindex="-1"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow right-0">
+        <li><a>Sobre nós</a></li>
+        <li><a>Nossa frota</a></li>
+        <li><a>Dúvidas</a></li>
       </ul>
     </div>
   </div>
-  <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul class="p-2 bg-base-100 w-40 z-1">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
-    </ul>
-  </div> 
-    </div>
+     
 
     </header>
 
     <main >
 
-        <div class="flex-col text-center p-40 bg-[url(https://www.viagensecaminhos.com/wp-content/uploads/2013/03/fortaleza-1068x712.jpg)] bg-center md:bg-top ">
+        <div class="flex-col text-center p-40 py-60 bg-[url(./assets/transpfortaleza.jpg)]   bg-no-repeat bg-cover bg-center ">
 
         
 
-<h2 class="rounded-lg bg-yellow-300 w-fit p-1 text-white">Aberta 365 dias</h2>
+<h2 class="rounded-lg bg-yellow-300 w-fit p-1 text-black mx-auto ">Aberta 365 dias</h2>
 
-<h1 class="text-3xl font-bold">Aluguel de carros com <span class="span-main">rapidez e segurança</span></h1>
+<h1 class="text-3xl font-bold text-white">Aluguel de carros com <span class="span-main">rapidez e segurança</span></h1>
 
 <h2 class="text-2xl text-yellow-400 font-bold ">Flexibilidade, segurança, atendimento 24 horas</h2>
 
-<div class="div-orcamento">
-<button class="orcamento">Faça um orçamento</button>
-
-<button class="frota">Nossa frota</button>
-
-</div>
         </div>
+
+<section>
+  <div class="flex justify-between">
+<div class="card bg-base-100 w-60 shadow-sm mt-6 ml-100">
+  <figure>
+    <img
+      src="https://s2-autoesporte.glbimg.com/qTwNR7aE0kjQqk_tYOn10TG2e-g=/0x0:620x400/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/m/B/ahJk2CTwiZ267GMGD03g/2015-12-09-hb20-comfort-plus-3-4-frente-20787-03-bege-2.jpg" />
+  </figure>
+  <div class="card-body bg-gray-100 rounded-md">
+    <h2 class="card-title font-bold">Hatch Moderno</h2>
+    <p >Hyundai HB20 | Conforto, tecnologia e excelência</p>
+    <div class="card-actions justify-end">
+      <p class="mt-3 font-semibold">R$100/diária</p>
+      <button class="btn bg-amber-400 btn-primary font-bold p-1">Reserve agora</button>
+      
+    </div>
+  </div>
+</div>
+
+<div class="card bg-base-100 w-60 shadow-sm mt-6 mr-100">
+  <figure>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRd9eSMwDjJ64x7ThEyJwaotpIwZvi07ubVA&s" />
+  </figure>
+  <div class="card-body bg-gray-100 rounded-md">
+    <h2 class="card-title font-bold">Hatch Moderno</h2>
+    <p >Volkswagem Polo | Conforto, tecnologia e excelência</p>
+    <div class="card-actions justify-end">
+      <p class="mt-3 font-semibold">R$100/diária</p>
+      <button class="btn bg-amber-400 btn-primary font-bold p-1">Reserve agora</button>
+      
+    </div>
+  </div>
+</div>
+</div>
+<div class="flex justify-between">
+<div class="card bg-base-100 w-60 shadow-sm mt-6 ml-100">
+  <figure>
+    <img
+      src="https://www.facilchevrolet.com.br/content/dam/chevrolet/sa/br/pt/master/home/suvs/spin-landing/2026/2-colorizer/1-8-at/chevrolet-spin-at-cor-prata-shark.jpg?imwidth=960" />
+  </figure>
+  <div class="card-body bg-gray-100 rounded-md">
+    <h2 class="card-title font-bold">Minivan compacta</h2>
+    <p >Chevrolet Spin | Conforto, tecnologia e excelência</p>
+    <div class="card-actions justify-end">
+      <p class="mt-3 font-semibold">R$200/diária</p>
+      <button class="btn bg-amber-400 btn-primary font-bold p-1">Reserve agora</button>
+      
+    </div>
+  </div>
+</div>
+
+<div class="card bg-base-100 w-60 shadow-sm mt-6 mr-100">
+  <figure>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMQoO57whUUNgOB3jTrrBPPy8QrwqFo_chEw&s" />
+  </figure>
+  <div class="card-body bg-gray-100 rounded-md">
+    <h2 class="card-title font-bold">Hatch Moderno</h2>
+    <p >Fiat Argo | Conforto, tecnologia e excelência</p>
+    <div class="card-actions justify-end">
+      <p class="mt-3 font-semibold">R$100/diária</p>
+      <button class="btn bg-amber-400 btn-primary font-bold p-1">Reserve agora</button>
+      
+    </div>
+  </div>
+</div>
+</div>
+</section>
     </main>
 
-    <footer>
-        <div class="">
-            Footer
+    <footer class="bg-blue-500 p-4">
+        <div class="grid place-items-center gap-2">
+      <img width="90px" src="./assets/logoazul.png" alt="logo branca">
+         <h2 class="text-white">Aluguel de carros em fortaleza com qualidade e segurança</h2>
+         <h2 class="rounded-lg bg-yellow-300 w-fit p-1 text-black">WhatsApp</h2>
         </div>
     </footer>
 
